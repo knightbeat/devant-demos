@@ -1,3 +1,3 @@
 import ballerina/http;
 
-final http:Client exteralServicehttpClient = check new ("http://webhook.site") ;
+final http:Client exteralServicehttpClient = check new (customersAPIEndpoint);
